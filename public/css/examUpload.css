@@ -1,0 +1,122 @@
+#examform {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    position: relative;
+}
+
+#examform fieldset{
+    border: 0 none;
+    border-radius: 3px;
+    padding: 50px 5px;
+    height: auto;
+    box-sizing: border-box;
+    width: 100%;
+    margin: -60px auto;
+
+    /*stacking fieldsets above each other*/
+    position: absolute;
+}
+
+#examform fieldset:not(:first-of-type) {
+    display: none;
+}
+/*.examform-input {*/
+    /*padding: 15px;*/
+    /*border: 1px solid #ccc;*/
+    /*border-radius: 3px;*/
+    /*margin-bottom: 10px;*/
+    /*width: 100%;*/
+    /*box-sizing: border-box;*/
+    /*font-family: montserrat;*/
+    /*color: #2C3E50;*/
+    /*font-size: 13px;*/
+/*}*/
+/*buttons*/
+#examform .action-button {
+    width: 100px;
+    background: #27AE60;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+#examform .action-button:hover, #examform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+/*headings*/
+.fs-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #222D32;
+    margin-bottom: 10px;
+}
+.fs-subtitle {
+    font-weight: normal;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+/*exam_progressbar*/
+#exam_progressbar {
+    margin-left: 7%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    /*CSS counters to number the steps*/
+    counter-reset: step;
+}
+#exam_progressbar li {
+    font-size: 12px;
+    color: #666;;
+    list-style-type: none;
+    text-transform: uppercase;
+    margin:2%;
+    float: left;
+    position: relative;
+}
+
+#exam_progressbar li:first-child:after {
+    /*connector not needed before the first step*/
+    content: none;
+}
+
+#exam_progressbar li div{
+    width: 25px;
+    /*height: 20px;*/
+    line-height: 25px;
+    display: block;
+    font-size: 10px;
+    color: black;
+    background: white;
+    border-radius: 3px;
+    margin: 0 auto 5px auto;
+    cursor:pointer;
+}
+
+#exam_progressbar li div.active{
+    width: 25px;
+    /*height: 20px;*/
+    line-height: 25px;
+    display: block;
+    font-size: 10px;
+    color: black;
+    background: #27AE60;
+    border-radius: 3px;
+    margin: 0 auto 5px auto;
+}
+
+.submit_button_bottom{
+    width: 100px;
+    background: #27AE60;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 630px 10px auto 10px;
+}
+

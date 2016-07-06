@@ -1,0 +1,138 @@
+.new_course {
+    margin: 5%;
+    background: #ffffff;
+    width: 198px;
+    height: 168px;
+}
+
+.course {
+    margin: 5%;
+}
+
+.fa.fa-plus.add {
+    height: 100%;
+}
+
+.btn.btn-app.new {
+    width: 90%;
+    height: 104px;
+    padding-top: 42px;
+
+}
+
+.page {
+    margin-left: 40%;
+    margin-top: 5%;
+    margin-bottom: 2%
+}
+
+.page_num {
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+/*圆形头像图片显示的样式*/
+#user_img {
+    margin: 10px auto
+
+}
+
+#user_img img {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%
+}
+
+#user_imgm img {
+
+    width: 200px;
+    height: 200px;
+
+}
+/*baike.blade.php*/
+.cover_small {
+    width: 160px;
+    height: 120px;
+    margin-bottom: 1%;
+
+}
+.baike-photo{
+    height: 300px;
+    overflow: scroll;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 7px;
+    border-color: #c5c5c5;
+    margin: 0 2% 2% 2%;
+}
+/*baike.blade.php*/
+.mailbox-attachment-icon.has-img > img {
+    max-width: 198px;
+    height: 110px;
+}
+/*cms_user_edit app_user_edit*/
+.user_cover_small {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1%;
+
+}
+
+
+.page {
+    margin-left: 40%;
+    margin-top: 5%;
+    margin-bottom: 2%
+}
+
+.page_num {
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.baike_delete {
+    margin-top: -10%;
+    margin-right: 1%;
+}
+
+.baike {
+    margin: 3%;
+}
+
+.new_baike {
+    margin: 5%;
+    background: #ffffff;
+    width: 198px;
+    height: 168px;
+}
+
+.btn.btn-app.new {
+    width: 90%;
+    height: 104px;
+    padding-top: 42px;
+
+}
+
+.fa.fa-plus.add {
+    height: 100%;
+}
+
+div.title {
+    text-align: center;
+    font-weight: bold;
+    color: #666;
+    margin-top: -42px;
+}
+.switch{
+    margin-left: 20%;
+}
+.switch2{
+    margin-left: 18%;
+}
+
+
+.info-detail > h6{
+    display: inline;
+    margin: 1%;
+}

@@ -1,0 +1,76 @@
+
+
+div.dataTables_j_paginate {
+  margin: 10px;
+  white-space: nowrap;
+  text-align: left;
+}
+
+div.dataTables_j_paginate ul.j_pagination {
+  margin: 2px 0;
+  white-space: nowrap;
+}
+.j_pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px
+}
+
+.j_pagination > li {
+  display: inline
+}
+
+.j_pagination > li > a,.j_pagination > li > input, .j_pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 10px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #337ab3;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd
+}
+
+
+
+.j_pagination input {
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 80px;
+  height: 42px;
+  border: 0px solid #ddd
+  vertical-align: middle;
+  text-align: center; }
+
+.j_page {
+  margin-left: 33%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+
+ .j_pagination > li > a:hover {
+  z-index: 3;
+  color: #23527c;
+  background-color: #eee;
+  border-color: #ddd
+}
+
+/*.j_pagination > .active > a, .j_pagination > .active > a:focus, .j_pagination > .active > a:hover {*/
+  /*z-index: 2;*/
+  /*color: #fff;*/
+  /*cursor: default;*/
+  /*background-color: #337ab7;*/
+  /*border-color: #337ab7*/
+/*}*/
+
+/*.j_pagination > .disabled > a, .j_pagination > .disabled > a:focus, .j_pagination > .disabled > a:hover {*/
+  /*color: #777;*/
+  /*cursor: not-allowed;*/
+  /*background-color: #fff;*/
+  /*border-color: #ddd*/
+/*}*/
